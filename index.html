@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Online Leave Application</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+  </head>
+  <style>
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+    padding: 20px;
+  }
+  
+  h1 {
+    text-align: center;
+    color: rgb(255, 255, 255);
+  }
+  
+  form {
+    max-width: 500px;
+    margin: 0 auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    border-color: red;
+    box-shadow: 0 0 10px rgba(223, 11, 11, 0.1);
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 10px;
+    font-weight: bold;
+    color: rgb(0, 0, 0);
+  }
+  
+  input[type="text"],
+  /* input[type="email"], */
+  /* input[type="number"], */
+  textarea {
+    width: 100%;
+    padding: 10px;
+    border-radius: 3px;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    margin-bottom: 20px;
+    border-color: rgb(68, 255, 0);
+  }
+  
+  input[type="submit"] {
+    background-color: #4caf50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+  }
+  
+  input[type="submit"]:hover {
+    background-color: #f9c108;
+  }
+  body {
+    background-image: url(https://wallpaperboat.com/wp-content/uploads/2019/10/best-background-for-website-14.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-attachment: fixed;
+  }
+  </style>
+  <body>
+    <section>
+      <marquee>
+          <h2><mark> To St Josephs Group Of Institution !!  To St Josephs Group Of Institution !!  To St Josephs Group Of Institution !! To St Josephs Group Of Institution !!  To St Josephs Group Of Institution !!  To St Josephs Group Of Institution !!  To St Josephs Group Of Institution !!</mark> </h2>
+      </marquee>
+  </section>
+    <h1>Online Leave Application</h1>
+    <form action="/submit" method="POST">
+      <label for="name">Name:</label>
+      <input type="text" id="name" name="user"><br><br>
+
+      <label for="text">Roll No:</label>
+      <input type="text" id="email" name="number"><br><br>
+      
+      <label for="text">Department</label>
+      <input type="text" id="email" name="email"><br><br>
+      
+      <label for="reason">Reason for Leave:</label>
+      <textarea id="reason" name="reason"></textarea><br><br>
+      
+      <label for="startdate">Start Date:</label>
+      <input type="date" id="startdate" name="startdate"><br><br>
+      
+      <label for="enddate">End Date:</label>
+      <input type="date" id="enddate" name="enddate"><br><br>
+      
+      <input type="submit" value="Submit">
+    </form>
+  </body>
+</html>
